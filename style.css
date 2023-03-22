@@ -1,0 +1,171 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto", sans-serif;
+}
+
+html,
+body {
+  margin: 0;
+  border: 0;
+  width: 100%;
+  height: 100%;
+}
+
+header,
+#hero {
+  background-color: #1f2937;
+  color: #f9faf8;
+}
+
+header a,
+#hero p,
+#hero a,
+#signup p,
+h6 {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  font-size: 24px;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+header ul {
+  display: flex;
+  list-style: none;
+}
+
+header a {
+  text-decoration: none;
+}
+
+header ul li {
+  padding: 0 10px;
+  font-size: 18px;
+}
+
+#hero {
+  display: flex;
+  padding: 8% 19%;
+}
+
+h2 {
+  margin: 0;
+  font-size: 48px;
+  font-weight: 900;
+}
+
+#hero div {
+  padding-right: 10px;
+}
+
+#hero img {
+  padding-left: 10px;
+  width: 1000px;
+  height: 240px;
+}
+
+#hero a {
+  text-decoration: none;
+  background-color: #3882f6;
+  padding: 5px 25px;
+  border-radius: 7px;
+}
+
+#random {
+  display: flex;
+  padding: 0% 22% 5% 22%;
+
+  flex-direction: column;
+  align-items: center;
+}
+
+h3 {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+  padding: 2% 0;
+}
+
+#randomImages {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.images {
+  width: 186px;
+  text-align: center;
+}
+
+.images img {
+  border: 3px solid #3882f6;
+  border-radius: 15px;
+  width: 180px;
+  height: 180px;
+}
+
+#quote {
+  padding: 10% 26%;
+  background-color: #e5e7eb;
+  color: #1f2937;
+}
+
+h4 {
+  position: relative;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 300;
+}
+
+#quote p {
+  position: absolute;
+  right: 26%;
+  font-weight: 900;
+}
+
+#signup {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #3882f6;
+  color: #f9faf8;
+  margin: 10% 19%;
+  padding: 1% 0%;
+  border-radius: 15px;
+}
+
+h5 {
+  font-size: 24px;
+  margin: 10px 0px;
+}
+
+#signup a {
+  text-decoration: none;
+  color: #f9faf8;
+  padding: 5px 25px;
+  border: 3px solid #f9faf8;
+  border-radius: 7px;
+}
+
+footer {
+  background-color: #1f2937;
+  text-align: center;
+  padding: 1px;
+}
+
+h6 {
+  font-weight: 400;
+  margin: 20px 0px;
+}
